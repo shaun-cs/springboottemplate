@@ -1,0 +1,10 @@
+
+# Eclipse specific
+target/
+.settings/
+.classpath
+.project
+
+# Vim specific
+*.swp
+
