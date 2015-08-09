@@ -1,0 +1,23 @@
+
+Annotations
+-----------
+
+@Service, @Controller , @Repository = {@Component + some more special functionality}
+
+@Component  : generic stereotype for any Spring-managed component
+@Repository : stereotype for persistence layer                   
+@Service    : stereotype for service layer                       
+@Controller : stereotype for presentation layer (spring-mvc)     
+
+Resources Directory
+-------------------
+
+Project->New->Folder under src/main
+Folder->Build Path->Use as Source Folder
+
+src/main goes in at the root of the .jar file.
+
+Spring Banner
+-------------
+
+Create a banner.txt file and place on classpath in resources directory (see Resources Directory)
